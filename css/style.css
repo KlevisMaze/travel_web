@@ -9768,3 +9768,15 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+.package-item img {
+  width: 100%; /* Ensures images take up the full width of their container */
+  height: 300px; /* Sets a consistent height for all images */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  opacity: 0.9; /* Sets a consistent opacity */
+  transition: opacity 0.3s ease-in-out; /* Adds a smooth transition effect */
+}
+
+.package-item img:hover {
+  opacity: 1; /* Removes opacity on hover for a subtle effect */
+}
+
