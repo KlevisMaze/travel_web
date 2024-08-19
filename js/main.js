@@ -68,3 +68,15 @@
     
 })(jQuery);
 
+function toggleText() {
+    var moreText = document.getElementById("moreText");
+    var moreLink = document.getElementById("moreLink");
+
+    if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        moreLink.textContent = " (less…)";
+    } else {
+        moreText.style.display = "none";
+        moreLink.textContent = " (more…)";
+    }
+}
