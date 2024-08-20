@@ -80,3 +80,9 @@ function toggleText() {
         moreLink.textContent = " (more…)";
     }
 }
+window.onload = function() {
+    setTimeout(function() {
+      document.querySelector('.whatsapp-float').style.display = 'block';
+    }, 2000);
+  };
+  
