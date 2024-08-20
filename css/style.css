@@ -9780,22 +9780,6 @@ h6,
   opacity: 1; /* Removes opacity on hover for a subtle effect */
 }
 
-/* WhatsApp button styling */
-.whatsapp-btn {
-  display: none; /* Hide by default */
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #25D366;
-  color: white;
-  padding: 15px 20px;
-  border-radius: 50px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  font-size: 16px;
-  z-index: 1000;
-}
-
 /* Display WhatsApp button on mobile screens */
 @media only screen and (max-width: 768px) {
   .whatsapp-btn {
