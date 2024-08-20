@@ -5852,6 +5852,23 @@ a.close.disabled {
   content: "";
 }
 
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  opacity: 0.85; /* Adjust opacity to match the first image */
+}
+
+/* Optionally, set a fixed height for the carousel if you want a uniform height */
+#header-carousel .carousel-item {
+  max-height: 600px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+#header-carousel .carousel-item img {
+  object-fit: cover;
+  opacity: 0.85; /* Apply consistent opacity to all images */
+}
+
 .carousel-item {
   position: relative;
   display: none;
