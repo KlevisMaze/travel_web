@@ -83,6 +83,6 @@ function toggleText() {
 window.onload = function() {
     setTimeout(function() {
       document.querySelector('.whatsapp-float').style.display = 'block';
-    }, 2000);
+    }, 3000);
   };
   
