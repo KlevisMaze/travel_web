@@ -9819,28 +9819,3 @@ h6,
   }
 }
 
-.header {
-  background-color: #28a745; /* Green color */
-  color: white;
-  padding: 20px 0;
-  text-align: center;
-}
-.btn-explore {
-  background-color: #28a745;
-  color: white;
-}
-.btn-explore:hover {
-  background-color: #218838; /* Darker green on hover */
-}
-.tour-item {
-  border: 1px solid #dee2e6;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-.tour-item img {
-  max-width: 100%;
-}
-.tour-item h5 {
-  font-weight: bold;
-}
-
