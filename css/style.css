@@ -9818,4 +9818,45 @@ h6,
     display: block;
   }
 }
+.contact-buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
+.contact-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #25d366;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-button:hover {
+  background-color: #1ebd54;
+}
+
+.call-button {
+  background-color: #28a745;
+}
+
+.call-button:hover {
+  background-color: #218838;
+}
+
+.email-button {
+  background-color: #007bff;
+}
+
+.email-button:hover {
+  background-color: #0069d9;
+}
