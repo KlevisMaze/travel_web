@@ -9818,63 +9818,6 @@ h6,
     display: block;
   }
 }
-.contact-buttons {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.contact-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #25d366;
-  color: white;
-  font-size: 24px;
-  text-decoration: none;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.contact-buttons {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-}
-
-.contact-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  color: white;
-  font-size: 24px;
-  text-decoration: none;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.call-button {
-  background-color: #28a745;
-}
-
-.email-button {
-  background-color: #007bff;
-}
-
-.whatsapp-button {
-  background-color: #25d366;
-}
-
-.contact-button:hover {
-  opacity: 0.8;
-}
  /* Custom Responsive */
  @media (max-width: 992px) {
   .contact-buttons {
