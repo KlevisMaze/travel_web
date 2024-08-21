@@ -9881,3 +9881,9 @@ h6,
       justify-content: space-between;
   }
 }
+.contact-form {
+  margin-bottom: 30px;
+}
+.row {
+  margin-bottom: 30px; /* Adjust this value as needed */
+}
