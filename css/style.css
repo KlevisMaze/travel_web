@@ -9875,3 +9875,9 @@ h6,
 .contact-button:hover {
   opacity: 0.8;
 }
+ /* Custom Responsive */
+ @media (max-width: 992px) {
+  .contact-buttons {
+      justify-content: space-between;
+  }
+}
