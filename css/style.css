@@ -9798,7 +9798,7 @@ h6,
 }
 
 .whatsapp-float {
-  position: fixed;
+  position: centered;
   bottom: 20px;
   left: 20px;
   z-index: 1000;
@@ -9846,4 +9846,12 @@ h6,
   font-size: 48px;
   font-weight: bold;
   color: white; /* Adjust the color if necessary */
+}
+.termsandconditions-text {
+  text-align: center; /* Center the text */
+  margin: 0 auto; /* Ensure the content is centered horizontally */
+  max-width: 800px; /* Optional: limit the width for better readability */
+  padding: 20px; /* Optional: add padding for spacing */
+  line-height: 1.6; /* Optional: improve line spacing */
+  font-family: Arial, sans-serif; /* Optional: change the font for better readability */
 }
