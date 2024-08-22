@@ -10989,19 +10989,20 @@ h6,
 }
 
 .whatsapp-float {
-  position: centered;
-  bottom: 20px;
-  left: 20px;
-  z-index: 1000;
-  display: none;
-  /* Hide on larger screens */
+  position: fixed;
+  bottom: 20px; /* Adjust the bottom position */
+  left: 20px;  /* Adjust the right position */
+  z-index: 1000; /* Make sure it's on top of other elements */
 }
 
 .whatsapp-icon {
-  width: 60px;
+  width: 60px;  /* Adjust the size of the icon */
   height: 60px;
-  border-radius: 50%;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.1); /* Slightly increase the size on hover */
 }
 
 /* Show on mobile devices */
